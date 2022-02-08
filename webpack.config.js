@@ -23,7 +23,18 @@ module.exports = {
                     miniCss.loader,
                     'css-loader',
                 ]               
-            }                     
+            },
+            {
+                test: /\.(jpe?g|png|gif)$/i,
+                type: 'asset/resource',
+            },
+            {
+                test: /\.(svg|eot|woff|woff2|ttf)$/,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'fonts/',
+                },
+            },                      
         ]
     },
     plugins: [

@@ -1,0 +1,25 @@
+@import '_sectionone.scss';
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../assets/fonts/proxima-nova/ProximaNova-Regular.eot');
+    src: url('../assets/fonts/proxima-nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/proxima-nova/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),
+         url('../assets/fonts/proxima-nova/ProximaNova-Regular.ttf') format('truetype'),
+         url('../assets/fonts/proxima-nova/ProximaNova-Regular.woff') format('woff'),
+         url('../assets/fonts/proxima-nova/ProximaNova-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Gilroy";
+    src: url("../assets/fonts/gilroy/Gilroy-Regular.ttf") format('truetype'),
+           
+   }
+
+body, html {
+    box-sizing: border-box;
+    font-family: 'ProximaNova', sans-serif;
+}
