@@ -1,5 +1,6 @@
 @import '_sectionone.scss';
 @import '_sectionSecond.scss';
+@import '_services.scss';
 
 
 @font-face {
@@ -23,4 +24,10 @@
 body, html {
     box-sizing: border-box;
     font-family: 'ProximaNova', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1920px;
 }

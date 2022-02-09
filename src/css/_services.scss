@@ -1,0 +1,114 @@
+#services {
+    width: 1920px;
+    height: 753px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#serviceHeader {
+    width: 1085px;
+    height: 78px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#serviceHeader h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: #FEE040;
+}
+
+#serviceHeader p {
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#serviceList {
+    width: 1920px;
+    height: 415px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;   
+    padding-left: 500px;    
+}
+
+.service {
+    width: 400px;
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 80px;    
+}
+
+.service img {
+    width: 400px;
+    height: 180px;
+}
+
+.service div h3 {
+    font-family: 'ProximaNova', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.service div p {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.service div a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 29px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    color: #FEE040;
+}
+
+.service div a img{
+    width: 21px;
+    height: 9px;
+    margin-left: 13px;
+}
+
+#scrollBar {
+    width: 1920px;
+    height: 4px;    
+}
+
