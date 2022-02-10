@@ -1,0 +1,181 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+#steps {
+    width: 320px;
+    height: 871px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#stepsHeader {
+    width: 320px;
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+#stepsHeader h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+    background-image: linear-gradient(to bottom, #60B6FF, rgba(0, 78, 134, 0.8));
+}
+
+#stepsHeader p {
+    margin-top: 28px;
+    margin-bottom: 0px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #505050;
+}
+
+#step1 {
+    width: 320px;
+    height: 882px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#slider {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#desc {
+    box-sizing: border-box;
+    width: 320px;
+    height: fit-content;
+    padding: 40px 10px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #F5F5F5;    
+}
+
+#step1Header {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#step1Header h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    text-align: center;
+}
+
+#step1Header div {
+    text-align: center;   
+    width: 77px;
+    height: 48px;
+    font-weight: 600;
+    background: #FEE040;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 13px;
+    line-height: 20px;    
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+}
+
+#desc p {
+    width: 280px;
+    margin-bottom: 32px;
+    margin-top: 18px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+#quote {
+    width: 280px;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#quote img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    outline-offset: -2px;
+    outline: 5px solid rgba(256, 256, 256, 0.9);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+#quote div {
+    width: 240px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+} 
+
+#quote p {
+    margin-top: 0px;
+    margin-bottom: 21px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    color: #505050;
+    opacity: 0.7;
+    font-style: italic;
+    width: 240px;
+}
+
+#quote h4 {
+    font-family: 'ProximaNova', sans-serif; 
+    margin-top: 0px;
+    margin-bottom: 0px;  
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -1.0px;
+    color: #151515;
+    opacity: 0.7;
+}
+
+
+}

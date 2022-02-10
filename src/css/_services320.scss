@@ -1,0 +1,129 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+#services {
+    width: 320px;
+    height: 530px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#serviceHeader {
+    width: 320px;
+    height: 78px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#serviceHeader h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FEE040;
+}
+
+#serviceHeader p {
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#serviceList {
+    box-sizing: border-box;
+    width: 320px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;   
+    padding-left: 35px; 
+    padding-right: 0px;       
+}
+
+#serviceList::-webkit-scrollbar {
+    display: none;    
+}
+
+.service {
+    width: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 35px;    
+}
+
+.service img {
+    width: 250px;
+    height: 135px;
+}
+
+.service div h3 {
+    font-family: 'ProximaNova', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.service div p {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.service div a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    color: #FEE040;
+}
+
+.service div a img{
+    width: 14px;
+    height: 6px;
+    margin-left: 8px;
+}
+
+#scrollContainer {
+    width: 100%;
+    height: 4px;  
+}
+
+#scrollBar {
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(270deg, #FEE040, rgba(254, 224, 64, 0));
+}
+}
