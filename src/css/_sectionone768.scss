@@ -1,0 +1,227 @@
+@media (min-width: 768px) and (max-width: 1279px) {
+
+#hero {
+    width: 768px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heroHeader {
+    display: flex;
+    width: 768px;
+    height: 62px;
+    margin-top: 18px;
+    border-bottom: 1px solid rgba(256, 256, 256, .2);    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    width: 230px;
+    margin-left: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#burgerImg {
+    width: 40px;
+    height: 22px;
+}
+
+#logoImg {
+    width: 157px;
+    height: 25px;
+}
+
+#info {
+    display: flex;
+    width: 350px;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#infoEmail {
+    font-size: 12px;
+    color: rgba(256, 256, 256, .5);
+    letter-spacing: -0.5px;    
+}
+
+#emailAddress a {
+    margin-top: 6px;
+    text-decoration: none;
+    color: #FEE040; 
+    font-size: 14px;
+}
+
+#emailAddress a img{
+    width: 10px;
+    height: 8px;
+    margin-right: 9px;
+}
+
+#infoPhone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    font-size: 12px;
+    color: rgba(256, 256, 256, .5);
+    letter-spacing: -0.5px;    
+}
+
+#infoPhone div img {
+    opacity: 0.5;
+}
+
+#infoPhone a {
+    margin-top: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: 700;
+    color: rgba(256, 256, 256, 1.0);
+}
+
+#heroMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heroContent {
+    display: flex;
+    width: 708px;
+    height: 209px;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heroContentHeader {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#heroContentBut {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#heroContentHeader h3 {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 29px;
+    color: rgba(256, 256, 256, 1.0);
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#heroContentHeader p {    
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(256, 256, 256, .7);
+}
+
+#heroContentBut button {
+    width: 280px;
+    height: 50px;
+    font-family: 'Gilroy', sans-serif;
+    background-color: #FEE040;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+}
+
+#heroContentBut button img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+#heroContentBut p {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: rgba(256, 256, 256, 1.0);
+}
+
+#heroBot {
+    width: 708px;
+    height: fit-content;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#heroBotFeatures {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+#heroBotFeatures div{  
+    width: 300px;  
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heroBotFeatures div img {    
+    width: 52px;
+    height: 46px;
+    margin-right: 27px;
+}
+
+#heroBotFeatures div p {    
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#heroBotVideo {
+    display: flex;
+    width: 220px;
+    height: 220px;
+    background-image: url(../assets/video.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+#heroBotVideo a img {
+    width: 20px;
+    height: 23px;
+}
+
+}

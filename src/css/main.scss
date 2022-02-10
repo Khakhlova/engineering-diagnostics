@@ -6,6 +6,10 @@
 @import '_sectionSecond1280.scss';
 @import '_services1280.scss';
 @import '_steps1280.scss';
+@import '_sectionone768.scss';
+@import '_sectionSecond768.scss';
+@import '_services768.scss';
+@import '_steps768.scss';
 
 
 @font-face {
@@ -40,5 +44,11 @@ body {
 @media (min-width: 1280px) and (max-width: 1919px) {
     body {
         width: 1280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    body {
+        width: 768px;
     }
 }
