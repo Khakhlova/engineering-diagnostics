@@ -2,6 +2,10 @@
 @import '_sectionSecond.scss';
 @import '_services.scss';
 @import '_steps.scss';
+@import '_sectionone1280.scss';
+@import '_sectionSecond1280.scss';
+@import '_services1280.scss';
+@import '_steps1280.scss';
 
 
 @font-face {
@@ -25,10 +29,16 @@
 body, html {
     box-sizing: border-box;
     font-family: 'ProximaNova', sans-serif;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
 }
 
 body {
     width: 1920px;
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+    body {
+        width: 1280px;
+    }
 }
